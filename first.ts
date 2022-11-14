@@ -5,7 +5,6 @@ fetch('https://jsonplaceholder.typicode.com/users')
   })
   .then((response) => {
     console.log(response)
-    let result = document.getElementById('result')
-    result?.innerHTML 
+  
   })
 }
